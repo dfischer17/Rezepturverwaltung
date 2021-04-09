@@ -13,3 +13,18 @@ C:\Users\Daniel Fischer\source\repos\Rezepturverwaltung\Database\obj\Debug\net5\
 C:\Users\Daniel Fischer\source\repos\Rezepturverwaltung\Database\obj\Debug\net5\ref\Database.dll
 C:\Users\Daniel Fischer\source\repos\Rezepturverwaltung\Database\obj\Debug\net5\Database.pdb
 C:\Users\Daniel Fischer\source\repos\Rezepturverwaltung\Database\obj\Debug\net5\Database.genruntimeconfig.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\bin\Debug\net5\Database.deps.json
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\bin\Debug\net5\Database.runtimeconfig.json
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\bin\Debug\net5\Database.runtimeconfig.dev.json
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\bin\Debug\net5\Database.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\bin\Debug\net5\ref\Database.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\bin\Debug\net5\Database.pdb
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.csprojAssemblyReference.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.AssemblyInfoInputs.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.AssemblyInfo.cs
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.csproj.CoreCompileInputs.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\ref\Database.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.pdb
+C:\Users\pefr2\OneDrive\Dokumente\Schule\Programmieren\Csharp\Rezepturverwaltung\Database\obj\Debug\net5\Database.genruntimeconfig.cache

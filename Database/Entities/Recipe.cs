@@ -10,7 +10,7 @@ namespace Database.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        //public Dictionary<Resource, double> Resources { get; set; }
         public double Costprice { get; set; }
+        public List<Resource> Resources { get; set; }
     }
 }

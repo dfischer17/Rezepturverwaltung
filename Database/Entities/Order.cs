@@ -9,10 +9,11 @@ namespace Database.Entities
     public class Order
     {
         public int Id { get; set; }
+        public int CustomerId { get; set; }
         public Customer Customer { get; set; }
-        public List<Product> OrderedProducts { get; set; }
         public DateTime OrderDate { get; set; }
         public DateTime DeliveryDate { get; set; }
         public Status Status { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
     }
 }

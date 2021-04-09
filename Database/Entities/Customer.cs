@@ -1,4 +1,6 @@
-﻿namespace Database.Entities
+﻿using System.Collections.Generic;
+
+namespace Database.Entities
 {
     public class Customer
     {
@@ -7,5 +9,6 @@
         public string Firstname { get; set; }
         public int Phonenumber { get; set; }
         public string Email { get; set; }
+        public List<Order> Orders { get; set; }
     }
 }
