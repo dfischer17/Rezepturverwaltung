@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Viemodel;
 
 namespace Program
 {
@@ -31,14 +32,14 @@ namespace Program
             try
             {
                 var db = new MyDbContext();
+                
                 db.Database.EnsureDeleted();
                 db.Database.EnsureCreated();
-                int nr = db.Products.Count();
-                Title = $"{nr} Products";
-                var recipe = db.Recipes.Single(x => x.Id == 1);
-                var recipeDetails = recipe.RecipeDetails.Where(x => x.RecipeId == recipe.Id);
-                
-                db.Dispose();
+               
+                var resourceViewModel = new ResourceViewModel(db);
+                this.DataContext = resourceViewModel;
+                                             
+                //db.Dispose();
 
             }
             catch (Exception ex)

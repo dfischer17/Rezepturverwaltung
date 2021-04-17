@@ -53,97 +53,97 @@ namespace Database
                 Unit = "g",
             });
 
-            //Recipe
-            modelBuilder.Entity<Recipe>().HasData(new Recipe
-            {
-                Id = 1,
-                Name = "Centella 30g",
-                Amount = 30,
-                Costprice = 20.0,
-            });
-            modelBuilder.Entity<Recipe>().HasData(new Recipe
-            {
-                Id = 2,
-                Name = "Haarshampoo",
-                Amount = 200,
-                Costprice = 15.0,
+            ////Recipe
+            //modelBuilder.Entity<Recipe>().HasData(new Recipe
+            //{
+            //    Id = 1,
+            //    Name = "Centella 30g",
+            //    Amount = 30,
+            //    Costprice = 20.0,
+            //});
+            //modelBuilder.Entity<Recipe>().HasData(new Recipe
+            //{
+            //    Id = 2,
+            //    Name = "Haarshampoo",
+            //    Amount = 200,
+            //    Costprice = 15.0,
 
-            });
-            modelBuilder.Entity<Recipe>().HasData(new Recipe
-            {
-                Id = 1,
-                Name = "Centella 30g",
-                Amount = 30,
-                Costprice = 20.0,
+            //});
+            //modelBuilder.Entity<Recipe>().HasData(new Recipe
+            //{
+            //    Id = 3,
+            //    Name = "Centella 30g",
+            //    Amount = 30,
+            //    Costprice = 20.0,
 
-            });
+            //});
 
-            //RecipeDetail
-            modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
-            {
-                Id = 1,
-                Quantity = 3,
-                RecipeId = 1,
-                ResourceId = 1,
-            });
-            modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
-            {
-                Id = 2,
-                Quantity = 1,
-                RecipeId = 1,
-                ResourceId = 2,
-            });
+            ////RecipeDetail
+            //modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
+            //{
+            //    Id = 1,
+            //    Quantity = 3,
+            //    RecipeId = 1,
+            //    ResourceId = 1,
+            //});
+            //modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
+            //{
+            //    Id = 2,
+            //    Quantity = 1,
+            //    RecipeId = 1,
+            //    ResourceId = 2,
+            //});
 
 
-            //Customer
-            modelBuilder.Entity<Customer>().HasData(new Customer
-            {
-                Id = 1,
-                Firstname = "Daniel",
-                Lastname = "Fischer",
-                Email = "banane23@gmail.com",
-                Phonenumber = 004306805147882,
-                //Order
-            });
-            modelBuilder.Entity<Customer>().HasData(new Customer
-            {
-                Id = 2,
-                Firstname = "Kroiß",
-                Lastname = "Matthias",
-                Email = "kroißM@hotmail.com",
-                Phonenumber = 004306801534212,
+            ////Customer
+            //modelBuilder.Entity<Customer>().HasData(new Customer
+            //{
+            //    Id = 1,
+            //    Firstname = "Daniel",
+            //    Lastname = "Fischer",
+            //    Email = "banane23@gmail.com",
+            //    Phonenumber = 004306805147882,
+            //    //Order
+            //});
+            //modelBuilder.Entity<Customer>().HasData(new Customer
+            //{
+            //    Id = 2,
+            //    Firstname = "Kroiß",
+            //    Lastname = "Matthias",
+            //    Email = "kroißM@hotmail.com",
+            //    Phonenumber = 004306801534212,
                 
-            });
-            modelBuilder.Entity<Customer>().HasData(new Customer
-            {
-                Id = 3,
-                Firstname = "Pepe",
-                Lastname = "Fröhler",
-                Email = "banane24@gmx.at",
-                Phonenumber = 004306801135683,
+            //});
+            //modelBuilder.Entity<Customer>().HasData(new Customer
+            //{
+            //    Id = 3,
+            //    Firstname = "Pepe",
+            //    Lastname = "Fröhler",
+            //    Email = "banane24@gmx.at",
+            //    Phonenumber = 004306801135683,
 
-            });
+            //});
 
-            //Product
-            modelBuilder.Entity<Product>().HasData(new Product
-            {
-                Id = 1,
-                Name = "Centella 30g",
-                Retailprice = 25.0,
+            ////Product
+            //modelBuilder.Entity<Product>().HasData(new Product
+            //{
+            //    Id = 1,
+            //    Name = "Centella 30g",
+            //    Retailprice = 25.0,
                 
-            });
+            //});
 
-            //Order
-            modelBuilder.Entity<Order>().HasData(new Order
-            {
+            ////Order
+            //modelBuilder.Entity<Order>().HasData(new Order
+            //{
                 
-            });
+            //});
 
-            //OrderDetail
-            modelBuilder.Entity<OrderDetail>().HasData(new OrderDetail
-            {
+            ////OrderDetail
+            //modelBuilder.Entity<OrderDetail>().HasData(new OrderDetail
+            //{
 
-            });
+            //});
 
 
         }

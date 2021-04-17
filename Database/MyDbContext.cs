@@ -25,14 +25,14 @@ namespace Database
         {
             if (!optionsBuilder.IsConfigured)
             {
-                //var connectionString = @"server=(LocalDB)\mssqllocaldb;attachdbfilename=C:\mytemp\Recipe.mdf;database=Recipes;integrated security=True";
-                var connectionString = @"server=(LocalDB)\mssqllocaldb;attachdbfilename=C:\Users\pefr2\OneDrive\Desktop\Databases\Recipe.mdf;database=Recipes;integrated security=True";
+                var connectionString = @"server=(LocalDB)\mssqllocaldb;attachdbfilename=C:\mytemp\Recipe.mdf;database=Recipes;integrated security=True";
+                //var connectionString = @"server=(LocalDB)\mssqllocaldb;attachdbfilename=C:\Users\pefr2\OneDrive\Desktop\Databases\Recipe.mdf;database=Recipes;integrated security=True";
                 optionsBuilder.UseSqlServer(connectionString);
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.TestSeed();
+            modelBuilder.TestSeed();
         }
     }
 }

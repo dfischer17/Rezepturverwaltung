@@ -4,10 +4,47 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Program"
+        xmlns:viewmodel="clr-namespace:Viemodel;assembly=Viemodel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="700" Width="800"
         Loaded="Window_Loaded">
+    <Window.DataContext>
+        <viewmodel:ResourceViewModel></viewmodel:ResourceViewModel>
+    </Window.DataContext>
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <DataGrid Name="resourceGrid" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" ItemsSource="{Binding Resources, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGrid>
 
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Label Content="Bezeichnung:"></Label>
+                <TextBox Width="200px" Text="{Binding DescriptionTxtBox, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Label Content="Menge:"></Label>
+                <TextBox Width="200px" Text="{Binding AmountTxtBox, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Label Content="Einheit:"></Label>
+                <TextBox Width="200px" Text="{Binding Unit, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Label Content="Nettopreis:"></Label>
+                <TextBox Width="200px" Text="{Binding NetpriceTxtBox, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Label Content="Steuerprozentsatz:"></Label>
+                <TextBox Width="200px" Text="{Binding TaxrateTxtBox, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            </StackPanel>
+            <Button Content="Rezept hinzufügen" Command="{Binding AddResourceCommand, Mode=OneWay}"></Button>
+        </StackPanel>        
     </Grid>
 </Window>

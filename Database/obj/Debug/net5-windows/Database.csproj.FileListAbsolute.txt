@@ -1,0 +1,15 @@
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\bin\Debug\net5-windows\Database.deps.json
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\bin\Debug\net5-windows\Database.runtimeconfig.json
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\bin\Debug\net5-windows\Database.runtimeconfig.dev.json
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\bin\Debug\net5-windows\Database.dll
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\bin\Debug\net5-windows\ref\Database.dll
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\bin\Debug\net5-windows\Database.pdb
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.AssemblyInfoInputs.cache
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.AssemblyInfo.cs
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.dll
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\ref\Database.dll
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.pdb
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.genruntimeconfig.cache
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Database\obj\Debug\net5-windows\Database.csprojAssemblyReference.cache
