@@ -21,7 +21,16 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         
-        <DataGrid Name="resourceGrid" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" ItemsSource="{Binding Resources, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></DataGrid>
+        <DataGrid Name="resourceGrid" AutoGenerateColumns="False" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" ItemsSource="{Binding Resources, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="ID"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Bezeichnung"/>
+                <DataGridTextColumn Binding="{Binding Amount}" Header="Menge"/>
+                <DataGridTextColumn Binding="{Binding Unit}" Header="Einheit"/>
+                <DataGridTextColumn Binding="{Binding Netprice}" Header="Nettopreis"/>
+                <DataGridTextColumn Binding="{Binding Taxrate}" Header="Steuersatz"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
         <StackPanel Grid.Column="0" Grid.Row="1">
             <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
