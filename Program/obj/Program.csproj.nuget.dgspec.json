@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Program\\Program.csproj": {}
+    "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Database\\Database.csproj": {
+    "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Database\\Database.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\pefr2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Database\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\Daniel Fischer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pefr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Fischer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Program\\Program.csproj": {
+    "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Program\\Program.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\Program.csproj",
         "projectName": "Program",
-        "projectPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Program\\Program.csproj",
-        "packagesPath": "C:\\Users\\pefr2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Program\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\Program.csproj",
+        "packagesPath": "C:\\Users\\Daniel Fischer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pefr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Fischer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +104,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5-windows",
             "projectReferences": {
-              "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Database\\Database.csproj": {
-                "projectPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\Programmieren\\Csharp\\Rezepturverwaltung\\Database\\Database.csproj"
+              "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\Database.csproj": {
+                "projectPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\Database.csproj"
               }
             }
           }
@@ -137,7 +137,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

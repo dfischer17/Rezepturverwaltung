@@ -35,6 +35,9 @@ namespace Program
                 db.Database.EnsureCreated();
                 int nr = db.Products.Count();
                 Title = $"{nr} Products";
+                var recipe = db.Recipes.Single(x => x.Id == 1);
+                var recipeDetails = recipe.RecipeDetails.Where(x => x.RecipeId == recipe.Id);
+                
                 db.Dispose();
 
             }

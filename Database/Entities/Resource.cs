@@ -1,4 +1,6 @@
-﻿namespace Database.Entities
+﻿using System.Collections.Generic;
+
+namespace Database.Entities
 {
     public class Resource
     {
@@ -8,6 +10,7 @@
         public string Unit { get; set; }
         public double Netprice { get; set; }
         public double Taxrate { get; set; }
+        public List<RecipeDetail> RecipeDetails { get; set; }
 
         private double CalculateGrossPrice()
         {

@@ -11,6 +11,7 @@ namespace Database.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public double Costprice { get; set; }
-        public List<Resource> Resources { get; set; }
+        public int Amount { get; set; }
+        public List<RecipeDetail> RecipeDetails{ get; set; }
     }
 }

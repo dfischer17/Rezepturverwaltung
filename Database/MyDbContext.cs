@@ -19,6 +19,7 @@ namespace Database
         public DbSet<Order> Orders { get; set; }
         public DbSet<Resource> Resources { get; set; } 
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<RecipeDetail> RecipeDetails { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -28,6 +29,10 @@ namespace Database
                 var connectionString = @"server=(LocalDB)\mssqllocaldb;attachdbfilename=C:\Users\pefr2\OneDrive\Desktop\Databases\Recipe.mdf;database=Recipes;integrated security=True";
                 optionsBuilder.UseSqlServer(connectionString);
             }
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.TestSeed();
         }
     }
 }
