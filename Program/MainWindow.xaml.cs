@@ -38,9 +38,14 @@ namespace Program
                
                 var resourceViewModel = new ResourceViewModel(db);
                 this.DataContext = resourceViewModel;
-                                             
+
                 //db.Dispose();
 
+
+                // TEST
+                var customerWindow = new CustomerWindow(db);
+                customerWindow.Show();
+                // TEST
             }
             catch (Exception ex)
             {

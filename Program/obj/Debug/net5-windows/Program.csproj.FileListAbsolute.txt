@@ -242,3 +242,5 @@ C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Program\bin\Debug\ne
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Program\bin\Debug\net5-windows\Viemodel.dll
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Program\bin\Debug\net5-windows\Viemodel.pdb
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Program\bin\Debug\net5-windows\MVVM.Tools.pdb
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Program\obj\Debug\net5-windows\CustomerWindow.g.cs
+C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Program\obj\Debug\net5-windows\CustomerWindow.baml

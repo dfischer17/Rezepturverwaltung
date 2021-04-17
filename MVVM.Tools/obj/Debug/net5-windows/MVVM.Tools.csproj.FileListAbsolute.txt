@@ -21,4 +21,3 @@ C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\MVVM.Tools\obj\Debug
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.dll
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\ref\MVVM.Tools.dll
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.pdb
-C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.csprojAssemblyReference.cache

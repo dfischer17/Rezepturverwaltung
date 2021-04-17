@@ -1,5 +1,5 @@
 ﻿Program
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Program\App.xaml
 21887490602
 
-4-293253808
+6-584904533
 2171647614632
 CustomerWindow.xaml;MainWindow.xaml;
 
-False
+True
 
