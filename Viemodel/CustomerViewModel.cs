@@ -20,6 +20,7 @@ namespace Viemodel
 
         public CustomerViewModel()
         {
+
         }
 
         private ObservableCollection<Customer> customers;

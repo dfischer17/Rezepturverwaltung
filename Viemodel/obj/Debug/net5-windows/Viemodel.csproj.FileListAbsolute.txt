@@ -15,3 +15,20 @@ C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Viemodel\obj\Debug\n
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Viemodel\obj\Debug\net5-windows\Viemodel.dll
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Viemodel\obj\Debug\net5-windows\ref\Viemodel.dll
 C:\Users\Daniel Fischer\Desktop\Projects\Rezepturverwaltung\Viemodel\obj\Debug\net5-windows\Viemodel.pdb
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\Viemodel.deps.json
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\Viemodel.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\ref\Viemodel.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\Viemodel.pdb
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\Database.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\MVVM.Tools.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\Database.pdb
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\bin\Debug\net5-windows\MVVM.Tools.pdb
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.csprojAssemblyReference.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.AssemblyInfoInputs.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.AssemblyInfo.cs
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.csproj.CoreCompileInputs.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.csproj.CopyComplete
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\ref\Viemodel.dll
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Viemodel\obj\Debug\net5-windows\Viemodel.pdb

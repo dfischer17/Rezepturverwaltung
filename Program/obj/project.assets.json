@@ -5761,19 +5761,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel Fischer\\.nuget\\packages\\": {}
+    "C:\\Users\\pefr2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\Program.csproj",
-      "packagesPath": "C:\\Users\\Daniel Fischer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Program\\obj\\",
+      "projectPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\Program\\Program.csproj",
+      "packagesPath": "C:\\Users\\pefr2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniel Fischer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pefr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5787,11 +5787,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5-windows",
           "projectReferences": {
-            "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\Database.csproj": {
-              "projectPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Database\\Database.csproj"
+            "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\Database\\Database.csproj": {
+              "projectPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\Database\\Database.csproj"
             },
-            "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Viemodel\\Viemodel.csproj": {
-              "projectPath": "C:\\Users\\Daniel Fischer\\Desktop\\Projects\\Rezepturverwaltung\\Viemodel\\Viemodel.csproj"
+            "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\Viemodel\\Viemodel.csproj": {
+              "projectPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\Viemodel\\Viemodel.csproj"
             }
           }
         }
@@ -5823,7 +5823,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

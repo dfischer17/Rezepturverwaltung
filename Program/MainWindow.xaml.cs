@@ -35,17 +35,11 @@ namespace Program
                 
                 db.Database.EnsureDeleted();
                 db.Database.EnsureCreated();
-               
-                var resourceViewModel = new ResourceViewModel(db);
-                this.DataContext = resourceViewModel;
+
+                var mainViewModel = new MainViewModel(db);
+                this.DataContext = mainViewModel;
 
                 //db.Dispose();
-
-
-                // TEST
-                var customerWindow = new CustomerWindow(db);
-                customerWindow.Show();
-                // TEST
             }
             catch (Exception ex)
             {
