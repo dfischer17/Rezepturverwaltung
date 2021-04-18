@@ -138,15 +138,17 @@
                         <Button Content="Rezept hinzufügen" Command="{Binding AddRecipeCommand, Mode=OneWay}"></Button>
                     </StackPanel>
 
-                    <DataGrid Name="recipeDetails" AutoGenerateColumns="False" Grid.Row="0" Grid.Column="1" ItemsSource="{Binding RecipeResources, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Binding="{Binding Id}" Header="ID"/>
-                            <DataGridTextColumn Binding="{Binding Name}" Header="Bezeichnung"/>
-                            <DataGridTextColumn Binding="{Binding Amount}" Header="Menge"/>
-                            <DataGridTextColumn Binding="{Binding Unit}" Header="Einheit"/>
-                        </DataGrid.Columns>
-                    </DataGrid>
-                    
+                    <StackPanel Grid.Row="0" Grid.Column="1">
+                        <DataGrid Name="recipeDetails" Margin="0 0 0 10" AutoGenerateColumns="False" ItemsSource="{Binding RecipeResources, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding Id}" Header="ID"/>
+                                <DataGridTextColumn Binding="{Binding Name}" Header="Bezeichnung"/>
+                                <DataGridTextColumn Binding="{Binding Amount}" Header="Menge"/>
+                                <DataGridTextColumn Binding="{Binding Unit}" Header="Einheit"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button Content="Neue Zutat hinzufügen" Command="{Binding OpenAddResourceToRecipeWindowCommand, Mode=OneWay}"></Button>
+                    </StackPanel>
                 </Grid>
             </TabItem>
         </TabControl>

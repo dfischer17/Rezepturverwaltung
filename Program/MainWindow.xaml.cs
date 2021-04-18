@@ -36,7 +36,8 @@ namespace Program
                 db.Database.EnsureDeleted();
                 db.Database.EnsureCreated();
 
-                var mainViewModel = new MainViewModel(db);
+                var addResourceToRecipeWindow = new AddResourceToRecipeWindow(db);
+                var mainViewModel = new MainViewModel(db, addResourceToRecipeWindow);
                 this.DataContext = mainViewModel;
 
                 //db.Dispose();

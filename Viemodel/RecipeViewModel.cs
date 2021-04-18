@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 
 namespace Viemodel
@@ -14,10 +15,12 @@ namespace Viemodel
     public class RecipeViewModel: ObservableObject
     {
         private readonly MyDbContext db;
+        private readonly Window addResourceToRecipeWindow;
 
-        public RecipeViewModel(MyDbContext db)
+        public RecipeViewModel(MyDbContext db, Window addResourceToRecipeWindow)
         {
             this.db = db;
+            this.addResourceToRecipeWindow = addResourceToRecipeWindow;
             Recipes = db.Recipes.AsObservableCollection();
         }
 
@@ -83,6 +86,7 @@ namespace Viemodel
             set 
             {
                 selectedRecipe = value;
+                StaticValues.selectedRecipe = selectedRecipe.Id; // TODO notwendig?
                 RecipeResources = db.RecipeDetails.Where(x => x.RecipeId == SelectedRecipe.Id).Select(x => x.Resource).AsObservableCollection();
                 RaisePropertyChangedEvent(nameof(SelectedRecipe));
             }
@@ -107,6 +111,11 @@ namespace Viemodel
             x => NameTxtBox.Trim().Length > 0
             );
 
+        public ICommand OpenAddResourceToRecipeWindowCommand => new RelayCommand<string>(
+            OpenAddResourceToRecipeWindow,
+            x => x == x
+            );
+
         /*/Helper*/
         private void AddRecipe(string obj)
         {
@@ -120,6 +129,11 @@ namespace Viemodel
             db.Recipes.Add(recipe);
             db.SaveChanges();
             Recipes = db.Recipes.AsObservableCollection();
+        }
+
+        private void OpenAddResourceToRecipeWindow(string obj)
+        {
+            addResourceToRecipeWindow.Show();
         }
     }
 }

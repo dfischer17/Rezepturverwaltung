@@ -33,3 +33,15 @@ C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\Rezepturverwaltu
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.dll
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\MVVM.Tools\obj\Debug\net5-windows\ref\MVVM.Tools.dll
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.pdb
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\bin\Debug\net5-windows\MVVM.Tools.deps.json
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\bin\Debug\net5-windows\MVVM.Tools.dll
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\bin\Debug\net5-windows\ref\MVVM.Tools.dll
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\bin\Debug\net5-windows\MVVM.Tools.pdb
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.AssemblyInfoInputs.cache
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.AssemblyInfo.cs
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.dll
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\ref\MVVM.Tools.dll
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.pdb
+C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\MVVM.Tools\obj\Debug\net5-windows\MVVM.Tools.csprojAssemblyReference.cache
