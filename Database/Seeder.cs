@@ -53,46 +53,47 @@ namespace Database
                 Unit = "g",
             });
 
-            ////Recipe
-            //modelBuilder.Entity<Recipe>().HasData(new Recipe
-            //{
-            //    Id = 1,
-            //    Name = "Centella 30g",
-            //    Amount = 30,
-            //    Costprice = 20.0,
-            //});
-            //modelBuilder.Entity<Recipe>().HasData(new Recipe
-            //{
-            //    Id = 2,
-            //    Name = "Haarshampoo",
-            //    Amount = 200,
-            //    Costprice = 15.0,
+            //Recipe
+            modelBuilder.Entity<Recipe>().HasData(new Recipe
+            {
+                Id = 1,
+                Name = "Centella 30g",
+                Amount = 30,
+                Costprice = 20.0,
+                Unit = "mg",
+            });
+            modelBuilder.Entity<Recipe>().HasData(new Recipe
+            {
+                Id = 2,
+                Name = "Haarshampoo",
+                Amount = 200,
+                Costprice = 15.0,
+                Unit = "ml",
+            });
+            modelBuilder.Entity<Recipe>().HasData(new Recipe
+            {
+                Id = 3,
+                Name = "Centella 30g",
+                Amount = 30,
+                Costprice = 20.0,
+                Unit = "mg",
+            });
 
-            //});
-            //modelBuilder.Entity<Recipe>().HasData(new Recipe
-            //{
-            //    Id = 3,
-            //    Name = "Centella 30g",
-            //    Amount = 30,
-            //    Costprice = 20.0,
-
-            //});
-
-            ////RecipeDetail
-            //modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
-            //{
-            //    Id = 1,
-            //    Quantity = 3,
-            //    RecipeId = 1,
-            //    ResourceId = 1,
-            //});
-            //modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
-            //{
-            //    Id = 2,
-            //    Quantity = 1,
-            //    RecipeId = 1,
-            //    ResourceId = 2,
-            //});
+            //RecipeDetail
+            modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
+            {
+                Id = 1,
+                Quantity = 3,
+                RecipeId = 1,
+                ResourceId = 1,
+            });
+            modelBuilder.Entity<RecipeDetail>().HasData(new RecipeDetail
+            {
+                Id = 2,
+                Quantity = 1,
+                RecipeId = 1,
+                ResourceId = 2,
+            });
 
 
             //Customer

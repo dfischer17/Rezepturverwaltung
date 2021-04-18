@@ -22,15 +22,27 @@ namespace Viemodel
         {
             get => resourceViewModel;
         }
+
+        private RecipeViewModel recipeViewModel;
+
+        public RecipeViewModel RecipeViewModel
+        {
+            get => recipeViewModel;
+        }
+
         public MainViewModel()
         {
-
+            
         }
         public MainViewModel(MyDbContext db)
         {
+            //Db Context
             this.db = db;
+
+            //View Models
             customerViewModel = new CustomerViewModel(db);
             resourceViewModel = new ResourceViewModel(db);
+            recipeViewModel = new RecipeViewModel(db);
         }
     }
 }

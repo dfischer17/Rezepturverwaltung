@@ -15,7 +15,6 @@ namespace Viemodel
         {
             this.db = db;
             Customers = db.Customers.AsObservableCollection();
-            Debug.WriteLine(db.Customers.AsObservableCollection().Count);
         }
 
         public CustomerViewModel()
