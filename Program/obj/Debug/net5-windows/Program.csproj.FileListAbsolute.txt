@@ -374,3 +374,5 @@ C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\Program\obj\Debug\net5-win
 C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\Program\obj\Debug\net5-windows\ref\Program.dll
 C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\Program\obj\Debug\net5-windows\Program.pdb
 C:\Users\Daniel Fischer\Music\temp\Rezepturverwaltung\Program\obj\Debug\net5-windows\Program.genruntimeconfig.cache
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Program\obj\Debug\net5-windows\AddResourceToRecipeWindow.g.cs
+C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Program\obj\Debug\net5-windows\AddResourceToRecipeWindow.baml

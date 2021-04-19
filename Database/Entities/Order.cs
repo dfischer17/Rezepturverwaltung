@@ -15,5 +15,6 @@ namespace Database.Entities
         public DateTime DeliveryDate { get; set; }
         public Status Status { get; set; }
         public List<OrderDetail> OrderDetails { get; set; }
+      
     }
 }

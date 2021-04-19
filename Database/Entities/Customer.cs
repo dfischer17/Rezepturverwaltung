@@ -10,5 +10,9 @@ namespace Database.Entities
         public long Phonenumber { get; set; }
         public string Email { get; set; }
         public List<Order> Orders { get; set; }
+        public override string ToString()
+        {
+            return $"{Lastname} {Firstname}";
+        }
     }
 }

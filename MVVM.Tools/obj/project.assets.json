@@ -8,19 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Daniel Fischer\\.nuget\\packages\\": {}
+    "C:\\Users\\pefr2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel Fischer\\Music\\temp\\Rezepturverwaltung\\MVVM.Tools\\MVVM.Tools.csproj",
+      "projectUniqueName": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\MVVM.Tools\\MVVM.Tools.csproj",
       "projectName": "MVVM.Tools",
-      "projectPath": "C:\\Users\\Daniel Fischer\\Music\\temp\\Rezepturverwaltung\\MVVM.Tools\\MVVM.Tools.csproj",
-      "packagesPath": "C:\\Users\\Daniel Fischer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel Fischer\\Music\\temp\\Rezepturverwaltung\\MVVM.Tools\\obj\\",
+      "projectPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\MVVM.Tools\\MVVM.Tools.csproj",
+      "packagesPath": "C:\\Users\\pefr2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pefr2\\OneDrive\\Dokumente\\Schule\\SYP\\Rezepturverwaltung\\RezepturverwaltungCode\\MVVM.Tools\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniel Fischer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pefr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

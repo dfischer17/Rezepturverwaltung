@@ -13,6 +13,8 @@ namespace Database.Entities
         public double Costprice { get; set; }
         public int Amount { get; set; }
         public string Unit { get; set; }
+        public double Retailprice { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
         public List<RecipeDetail> RecipeDetails{ get; set; }
     }
 }

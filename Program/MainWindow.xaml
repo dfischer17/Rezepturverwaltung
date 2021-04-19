@@ -151,6 +151,41 @@
                     </StackPanel>
                 </Grid>
             </TabItem>
+            <TabItem Header="Bestellungen">
+                <Grid DataContext="{Binding OrderViewModel}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ListView SelectedItem="{Binding SelectedCustomer}" ItemsSource="{Binding Customers}" Grid.Row="0" Grid.Column="0">
+                    </ListView>
+                    <StackPanel Grid.Row="0" Grid.Column="1">
+                        <DataGrid SelectedItem="{Binding SelectedOrder}" AutoGenerateColumns="False" ItemsSource="{Binding Orders}">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding OrderDate}" Header="Bestelldatum"/>
+                                <DataGridTextColumn Binding="{Binding DeliveryDate}" Header="Lieferdatum"/>
+                                <DataGridTextColumn Binding="{Binding Status}" Header="Status"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button Command="{Binding AddOrderCommand}" Margin="0,20,0,0" Content="Bestellung hinzufügen">
+                        </Button>
+                    </StackPanel>
+                    
+                    <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Recipes}" Grid.Row="1" Grid.Column="1">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Name}" Header="Bezeichnung"/>
+                            <DataGridTextColumn Binding="{Binding Amount}" Header="Menge"/>
+                            <DataGridTextColumn Binding="{Binding Unit}" Header="Einheit"/>
+                            <DataGridTextColumn Binding="{Binding Retailprice}" Header="Preis"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    
+                </Grid>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>

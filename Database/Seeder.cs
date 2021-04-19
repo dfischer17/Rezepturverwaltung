@@ -134,18 +134,55 @@ namespace Database
 
             //});
 
-            ////Order
-            //modelBuilder.Entity<Order>().HasData(new Order
-            //{
+            //Order
+            modelBuilder.Entity<Order>().HasData(new Order
+            {
+                Id = 1,
+                CustomerId = 1,
+                OrderDate = DateTime.Now,
+                DeliveryDate = DateTime.Now.AddDays(1),
+                Status = Status.Open,
 
-            //});
+            }); 
+            modelBuilder.Entity<Order>().HasData(new Order
+            {
+                Id = 2,
+                CustomerId = 2,
+                OrderDate = DateTime.Now,
+                DeliveryDate = DateTime.Now.AddDays(1),
+                Status = Status.Open,
+            });
+            modelBuilder.Entity<Order>().HasData(new Order
+            {
+                Id = 3,
+                CustomerId = 1,
+                OrderDate = DateTime.Now,
+                DeliveryDate = DateTime.Now.AddDays(1),
+                Status = Status.Done,
+            });
 
-            ////OrderDetail
-            //modelBuilder.Entity<OrderDetail>().HasData(new OrderDetail
-            //{
-
-            //});
-
+            //OrderDetail
+            modelBuilder.Entity<OrderDetail>().HasData(new OrderDetail
+            {
+                Id = 1,
+                OrderId = 1,
+                RecipeId= 1,
+                Quantity = 5,
+            });
+            modelBuilder.Entity<OrderDetail>().HasData(new OrderDetail
+            {
+                Id = 2,
+                OrderId = 1,
+                RecipeId = 2,
+                Quantity = 3,
+            });
+            modelBuilder.Entity<OrderDetail>().HasData(new OrderDetail
+            {
+                Id = 3,
+                OrderId = 2,
+                RecipeId = 3,
+                Quantity = 1,
+            });
 
         }
         public static void Seed(this ModelBuilder modelBuilder)

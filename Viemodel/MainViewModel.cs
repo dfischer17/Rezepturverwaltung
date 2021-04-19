@@ -25,9 +25,15 @@ namespace Viemodel
             //View Models
             customerViewModel = new CustomerViewModel(db);
             resourceViewModel = new ResourceViewModel(db);
+            orderViewModel = new OrderViewModel(db);
 
-           
             recipeViewModel = new RecipeViewModel(db, addResourceToRecipeWindow);
+        }
+        private OrderViewModel orderViewModel;
+
+        public OrderViewModel OrderViewModel
+        {
+            get => orderViewModel;
         }
 
         private CustomerViewModel customerViewModel;

@@ -19,7 +19,6 @@ C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\Rezepturverwaltu
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Database\bin\Debug\net5-windows\Database.dll
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Database\bin\Debug\net5-windows\ref\Database.dll
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Database\bin\Debug\net5-windows\Database.pdb
-C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Database\obj\Debug\net5-windows\Database.csprojAssemblyReference.cache
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Database\obj\Debug\net5-windows\Database.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Database\obj\Debug\net5-windows\Database.AssemblyInfoInputs.cache
 C:\Users\pefr2\OneDrive\Dokumente\Schule\SYP\Rezepturverwaltung\RezepturverwaltungCode\Database\obj\Debug\net5-windows\Database.AssemblyInfo.cs
